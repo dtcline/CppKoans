@@ -1,6 +1,19 @@
+NOTE: forked from https://github.com/torbjoernk/CppKoans purely for learning purposes
+
+# Setup
+
+As mentioned in the original README, CMake is required.
+
+With MinGW on Windows 8.1 32-bit, `sh.exe` from MSYS cannot be on the path (CMake complains).
+From directory inside of the root, run:
+`cmake -G "MinGW Makefiles" .. `
+`mingw32-make`
+
+
+
 #CppKoans
 
-Inspired by [RubyKoans](https://github.com/edgecase/ruby_koans) and 
+Inspired by [RubyKoans](https://github.com/edgecase/ruby_koans) and
 [JavaScript-Koans](https://github.com/liammclennan/JavaScript-Koans), this is
 an attempt to write such koans for C/C++.
 
